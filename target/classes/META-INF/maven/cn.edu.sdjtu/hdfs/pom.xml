@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cn.edu.sdjtu</groupId>
+	<artifactId>hdfs</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>HADOOP</name>
+	<properties>
+		<hadoop.version>2.9.2</hadoop.version>
+	</properties>
+	<dependencies>
+		<!--hadoop-common的version可以依照你的实际需要来 -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-common</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		<!--如果需要读写HDFS，则还需要依赖hadoop-hdfs和hadoop-client -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-hdfs</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-client</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+	</dependencies>
+</project>
