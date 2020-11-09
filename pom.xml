@@ -27,5 +27,13 @@
 			<artifactId>hadoop-client</artifactId>
 			<version>2.9.2</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.hbase/hbase-client -->
+		<dependency>
+		    <groupId>org.apache.hbase</groupId>
+		    <artifactId>hbase-client</artifactId>
+		    <version>2.3.3</version>
+		</dependency>
+		
 	</dependencies>
 </project>
